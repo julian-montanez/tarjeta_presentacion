@@ -5,9 +5,13 @@ body{
 }
 
 .gradiente{
+    margin: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient( green 20%, wheat 60%);
+    background: linear-gradient( grey 30%, black 60%);
+    position: absolute;
+    z-index: -1;
+    top: 0;
 }
 
 .fondo{
@@ -18,7 +22,7 @@ body{
     background-size: cover;
     padding: 20px;
     margin-top: 30px;
-    outline: 5px solid blueviolet;
+    outline: 5px solid lightgoldenrodyellow;
 }
 
 .difuminado{
