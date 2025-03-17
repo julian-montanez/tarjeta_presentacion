@@ -1,0 +1,61 @@
+body{
+    color: aliceblue;
+    height: 100%;
+    margin: 0;
+}
+
+.gradiente{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( green 20%, wheat 60%);
+}
+
+.fondo{
+    width: 600px;
+    height: 600px;
+    background-image: url(https://www.proydesa.org/portal/images/codigos.jpg);
+    margin: auto;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 30px;
+    outline: 5px solid blueviolet;
+}
+
+.difuminado{
+background-color: rgba(168, 161, 161, 0.514);
+width: 600px;
+height: 600px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+.contenido{
+margin: auto;
+position: relative;
+display: flex;
+flex-direction: column;
+bottom: 50px;
+}
+
+.foto{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    outline: 5px solid wheat;
+    position: relative;
+    left: 15px;
+}
+
+.separador{
+    height: 2px;
+    width: 220px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+
+.nombre{
+    margin-top: 0;
+}
+
+
