@@ -4,6 +4,8 @@ body{
     margin: 0;
 }
 
+/* header */
+
 .gradiente{
     margin: 0;
     height: 100vh;
@@ -16,7 +18,7 @@ body{
 
 .fondo{
     width: 600px;
-    height: 600px;
+    height: 550px;
     background-image: url(https://www.proydesa.org/portal/images/codigos.jpg);
     margin: auto;
     background-size: cover;
@@ -28,18 +30,18 @@ body{
 .difuminado{
 background-color: rgba(168, 161, 161, 0.514);
 width: 600px;
-height: 600px;
+height: 550px;
 margin: auto;
 display: flex;
 flex-direction: column;
 }
 
-.contenido{
+.contenido_header{
 margin: auto;
 position: relative;
 display: flex;
 flex-direction: column;
-bottom: 50px;
+margin-bottom: 0;
 }
 
 .foto{
@@ -60,6 +62,20 @@ bottom: 50px;
 
 .nombre{
     margin-top: 0;
+    margin-bottom: 0;
 }
 
+/* main */
 
+.contenido_main{
+    font-size:25px;
+    font-family: sans-serif;
+}
+
+.descripcion{
+    text-align: center;
+}
+
+.informacion{
+    list-style: none;
+}
